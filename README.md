@@ -5,7 +5,7 @@ sudo nano /etc/default/grub
 
 Look for `GRUB_CMDLINE_LINUX` and add the following `net.ifnames=0 biosdevname=0`  
 
-From:
+Change From:
 
  `GRUB_CMDLINE_LINUX=""`  
 
